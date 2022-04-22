@@ -1,0 +1,53 @@
+.heading{
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid rgb(255, 139, 139);
+    border-radius: 2px;
+    
+}
+.heading:hover{
+    background-color:lightsalmon;
+    cursor: pointer;
+}
+.one{
+    background-color: olivedrab;
+}
+.two{
+    background-color: rgb(142, 35, 67);
+}
+.three{
+    background-color: orange;
+}
+.four{
+    background-color: orangered;
+}
+.five{
+    background-color: blueviolet;
+}
+.six{
+    background-color: greenyellow;
+}
+.seven{
+    background-color: green;
+}
+.eight{
+    background-color: blue;
+}
+button{
+    background-color:lightsalmon;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+*{
+    /* display: flex;
+    justify-items: center; */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+

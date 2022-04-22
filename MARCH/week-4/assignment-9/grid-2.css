@@ -1,0 +1,72 @@
+.container{height: 90vh;
+    
+    display: grid;
+    grid-template-columns: 4,1fr;
+    border: 2px solid grey;
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: 10%;
+    padding:5% ;
+
+
+}
+.item{
+    background-color: black;
+    padding: px;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+    
+
+}
+.A{ grid-column:1 / 2 span ;
+
+}
+.B{
+    grid-row:1 / 1 span ;
+    grid-column: 3 / 1 span;
+}
+.C{
+    grid-row: 1 / 1 span ;
+    grid-column: 4 / 1 span;
+}
+.D{
+    grid-row: 2/ 1 span ;
+    grid-column: 1 / 1 span;
+}
+.E{
+    grid-row: 2 / 1 span ;
+    grid-column: 2 / 1 span;
+}
+.F{
+    grid-row: 2 / 1 span ;
+    grid-column: 3 / 1 span;
+}
+.G{
+    grid-row: 3 / 2 span ;
+    grid-column: 1 / 2 span;
+}
+.H{
+    grid-row: 3 / 1 span ;
+    grid-column: 3 / 1 span;
+}
+.I{
+    grid-row: 3 / 1 span ;
+    grid-column: 4 / 1 span;
+}
+.J{
+    grid-row: 3 / 1 span ;
+    grid-column: 3 / 1 span;
+}
+.K{
+    grid-row: 5/ 1 span ;
+    grid-column: 1 / 3 span;
+}
+.L{
+    grid-row: 5 / 1 span ;
+    grid-column: 4 / 1 span;
+}
+.M{
+    grid-row: 6 / 1 span ;
+    grid-column: 1 / 1 span;
+}

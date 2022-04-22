@@ -1,0 +1,35 @@
+.container{border: 2px solid gray;
+    border-color: gray;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    gap: 20PX;
+    grid-template-rows: auto auto ;
+    margin: 10%;
+    
+    padding: 5%; 
+    /* width: 90vw; */
+     
+}
+
+.item{ background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 45px;
+}
+.A{
+    grid-column: 1 / 8 span;
+    
+
+}
+.C{
+    grid-column: 1 / 4 span;
+}
+.D{
+    grid-column: 5 / 4 span;
+}
+.B{
+    grid-column: 9 / 4 span ;
+    grid-row: 1 / 2 span;
+    height: auto;
+}

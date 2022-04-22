@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 100px;
+            border: 2px solid red;
+            padding: 10px;
+            text-align: center;
+        }
+        .container{
+            margin: 20px;
+            padding: 10px;
+
+
+        }
+    </style>
+    <script>
+        function changetext(){
+            var h2ref = document.getElementById("h2");
+            var div1= document.getElementById("div1");
+            h2ref.innerText=" HELLO JAVASCRIPT";
+            div1.style.color= "red";
+            div1.style.backgroundColor= "blue";
+
+        }
+    </script>
+</head>
+<body>
+    <div class="container" id="div1">
+    <h2 id="h2">Welcome to geekster</h2>
+    <br>
+    <button onclick="changetext()">javascript</button>
+</div>
+</body>
+</html>

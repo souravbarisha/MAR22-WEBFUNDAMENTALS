@@ -1,0 +1,72 @@
+.heading-1{
+    color: orangered;
+    background-color: greenyellow;
+    padding: 5px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+.heading-3{display: flex;
+
+    margin-left: 42%;
+    padding: 5px;
+    color: blue;
+    }
+    nav{
+        float: right;
+        margin-right:35px ;
+         position: fixed; 
+        top:-5px;
+        /* position: sticky; */
+    
+    }
+    nav ul li { 
+        display: inline-block;
+        line-height: 80px;
+        margin: 5px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #chat{display: flex;
+        color: goldenrod;
+        background-color: darkslategray;
+        font-size: 15px;
+         
+        position: fixed;
+
+
+        right: 25px;
+        bottom: 60px;
+        height:30px ;
+        padding: 2px;
+
+
+    
+    }
+
+p{
+    color: maroon;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+.heading-2{
+color: darkblue;
+margin-left: 30px;
+}
+.heading-4{
+    color:red;
+     text-align: center; 
+    }
+   .image-area {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+        align-items: center; 
+         justify-content:center; 
+}
+.singel-image{
+    padding: 0 20px 20px;
+}

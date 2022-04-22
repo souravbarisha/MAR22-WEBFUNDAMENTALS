@@ -1,0 +1,56 @@
+#tophead {
+    color: blue;
+    size: 50px;
+    font: bolder;
+    font-size: larger;
+    padding: 100px;
+}
+
+* {
+    box-sizing:border-box;
+    text-align: center;
+     background-color: aqua; 
+    padding: 2%;
+    margin: 2px;
+}
+
+#heading-1 {
+    color:orangered;
+background-color: greenyellow;
+
+
+}
+#heading-2{
+    color: green;
+    background-color:burlywood;
+    border-radius: 75%;
+    margin: 2%;
+}
+#LD {
+    color: yellow;
+    padding: 0%;
+    margin: 0px;
+    background-color: burlywood;
+}
+.para {
+    color: darkblue;
+    background-color: chocolate;
+    border-color: rgb(6, 180, 15);
+    border: width 2px;;
+    margin: 0.5%;
+}
+#survey {
+    color: maroon;
+    text-align: left;
+    padding-left: 10px;
+}
+.BT {
+    color: white;
+    background-color:green;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}

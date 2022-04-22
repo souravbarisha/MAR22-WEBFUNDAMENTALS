@@ -1,0 +1,42 @@
+<!-- Write a program to take an input from the user (number) and check whether it is a prime number or not. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>souravbarisha@gmail.com</title>
+</head>
+<body>
+    <script> 
+    let num = parseInt(prompt ("enter the number"));
+    let i= parseInt;
+
+    if (num===1){
+        console.log(`${num} is neither a prime or composite number`);
+        alert (`${num}neither a prime or composite number`);
+    }
+    else if(num<1){
+        console.log(`${num}is not a prime number`);
+        alert (`${num}is not a prime number`);
+    }
+    else{
+        for(let i=2;i<num; i++){
+            if (num%i===0){
+                console.log (`${num}is not a prime number`);
+                alert (`${num}is not a prime number`)
+                break;
+            }
+            else{
+                console.log (`${num}is a prime number`);
+                alert(`${num}is a prime number`);
+            }
+            }
+            
+        }
+    
+
+    </script>
+</body>
+</html>

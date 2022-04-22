@@ -1,0 +1,13 @@
+div{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    margin: 100px auto;
+}
+button{
+    background-color: rgb(112, 197, 218);
+    border: none;
+    color: goldenrod;
+    padding: 10px 30px;
+     margin-right: 10px;}
