@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{  
+          text-align: center; 
+
+      }
+         
+     
+      h1{
+          color: green;
+      }
+      h2{
+          color: red;
+      }
+    
+    </style>
+</head>
+<body>
+    <div id="bodydiv">
+    <h1>USER DETAILS</h1>
+    <h2>To get all cards click the button</h2>
+    <br>
+    <br>
+    <button onclick="getusers()">click here</button>
+     <div></div>
+    </div>
+
+
+    <script>
+         function getusers() {
+  fetch("https://reqres.in/api/users?page=2")
+    .then((res) => {
+      console.log(res.json);
+      return res.json();
+    })
+    .then((object) => {
+      console.log(object.data);
+        //create maindiv
+      let maindiv= document.createElement("div")
+
+       //from here map has started
+      object.data.map(function(ele){
+
+             //create sub div and elements
+      let subdiv = document.createElement("div")
+
+       let imgref= document.createElement("img")
+       let emailref= document.createElement("p")
+       let first_nameref= document.createElement("p")
+       let last_nameref= document.createElement("p")
+       let idref= document.createElement("p")
+
+       //append data into elements
+       imgref.src= ele.avatar
+       emailref.innerText= ele.email
+       first_nameref.innerText= ele.first_name
+       last_nameref.innerText= ele.last_name
+       idref.innerText= ele.id
+        
+       //creat appendchiled for maindiv
+       maindiv.appendChild(subdiv)
+       //create appendchild for subdiv
+       subdiv.appendChild(imgref)
+       subdiv.appendChild(emailref)
+       subdiv.appendChild(first_nameref)
+       subdiv.appendChild(last_nameref)
+       subdiv.appendChild(idref)
+     
+
+       return;
+      })
+      maindiv.style.borderStyle= "solid"
+      maindiv.style.borderStyle= 5;
+      maindiv.style.backgroundColor=
+         
+
+       document.querySelector("body").appendChild(maindiv)
+      
+       
+    })
+     }
+    </script>
+</body>
+</html>
