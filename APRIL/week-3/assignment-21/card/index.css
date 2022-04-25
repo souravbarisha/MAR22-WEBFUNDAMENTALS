@@ -1,0 +1,54 @@
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    
+}
+.container{text-align: center;
+      display: flex;
+    justify-content: center; 
+     align-items: center;  
+    background-color: rgb(165, 211, 196);
+    width: 500px;
+    height: 700px;
+     
+} 
+.subdiv{display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: wheat;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border-style: hidden;
+}
+ 
+ 
+
+.heading{
+    text-align: center;
+   
+
+}
+#underline{
+    text-decoration: underline rgb(5, 126, 126);
+
+} 
+  #image{width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.btn{
+all:unset;
+padding: 5px 10px;
+cursor: pointer;
+border-radius: 5px;
+background-color: orange;
+}
+.btn:hover{
+    background-color: orangered;
+}
+.button{
+    margin-bottom: 25px;
+}
