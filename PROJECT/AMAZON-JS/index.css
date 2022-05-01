@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    padding: 10px 0px;
+    background-color:#232F3F; ;
+    color: orange;
+}
+.flex{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: #232F3F;
+    color: white;
+    padding: 10px 0px;
+    height: 50px;
+}
+.header-item{
+    margin: 0px 10px;
+}
+.btn{
+    all: unset;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+.btn:hover{
+    border: 1px solid white;
+}
+#input:focus{
+  outline: none;
+}
+.btn-active{
+   background-color:#91c0fd; ;
+}
+.inactive{
+    visibility: hidden;
+}
+.active{
+    visibility: visible;
+}
